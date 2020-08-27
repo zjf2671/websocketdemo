@@ -49,10 +49,10 @@
     }
 </script>
 <body>
-<p>【userId】：<input id="userId" name="userId" type="text">
+<p>【userId】：<input id="userId" name="userId" type="text" value="${userId}">
 <p>【toUserId】：<input id="toUserId" name="toUserId" type="text">
 <p> [发送内容]：<input id="contentText" name="contentText" type="text" maxlength="50">
-    <input type="button" onclick="openSocket()" value="开启socket" style="background: cyan;background-color: red;width: auto;height: auto;"/>
+    <input type="button" onclick="openSocket()" value="开启socket" style="background: cyan;background-color: green;width: auto;height: auto;"/>
     <input type="button" onclick="sendMessage()" value="发送消息" style="background: cyan;background-color: lightgrey;width: auto;height: auto;" />
 </body>
 
