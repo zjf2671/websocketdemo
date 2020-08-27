@@ -14,6 +14,7 @@
     http://localhost:8080/testdemo/pushListToWeb?cid=20&message=444444
     在客户端浏览器console上能看到消息
     
-
+`4、注意点`
     
+    websocket上下文是跟着 server.servlet.context-path 走的
     
