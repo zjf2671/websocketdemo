@@ -1,4 +1,4 @@
-## WebSocket通信 学习项目
+## WebSocket通信 学习demo
 `1、所用技术`
 
     springboot2.1.4 + WebSocket + freemark实现简单的通信
